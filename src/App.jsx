@@ -9,12 +9,12 @@ import { Footer } from './sections/Footer'
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
+      {/* <Header /> */}
+      <Slider />
+      {/* <Hero /> */}
       <Info />
       <MainImage />
       <Bento />
-      <Slider />
       <Footer />
     </>
   )
