@@ -7,7 +7,7 @@ import { Pagination, Autoplay } from 'swiper/modules'
 
 export const Slider = () => {
   return (
-    <section className='bg-blue-100 h-screen overflow-hidden'>
+    <section className='bg-blue-950 h-screen overflow-hidden'>
       <Swiper
         pagination={{
           dynamicBullets: true,
@@ -24,7 +24,7 @@ export const Slider = () => {
           <img src='/main_image.jpg' alt='Slider 1' />
         </SwiperSlide>
         <SwiperSlide className='object-cover'>
-          <img src='/slider_2.jpg' alt='Slider 2' />
+          <img src='/slider_2_1.jpg' alt='Slider 2' />
         </SwiperSlide>
       </Swiper>
     </section>
