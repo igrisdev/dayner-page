@@ -8,7 +8,6 @@ function App() {
   return (
     <>
       <Slider />
-      {/* <Hero /> */}
       <Info />
       <MainImage />
       <Bento />
