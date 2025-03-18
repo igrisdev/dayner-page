@@ -9,7 +9,6 @@ import { Footer } from './sections/Footer'
 function App() {
   return (
     <>
-      <Header />
       <Slider />
       {/* <Hero /> */}
       <Info />
