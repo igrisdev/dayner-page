@@ -3,17 +3,17 @@
   <defs>
     <style>
       .cls-1 {
-        fill: url(#Degradado_sin_nombre_30);
+        fill: url(#Degradado_sin_nombre_186);
       }
     </style>
-    <radialGradient id="Degradado_sin_nombre_30" data-name="Degradado sin nombre 30" cx="7.91" cy="3.85" fx="-3.02" fy="3.85" r="46.69" gradientUnits="userSpaceOnUse">
+    <radialGradient id="Degradado_sin_nombre_186" data-name="Degradado sin nombre 186" cx="7.91" cy="3.85" fx="-3.02" fy="3.85" r="46.69" gradientUnits="userSpaceOnUse">
       <stop offset=".21" stop-color="#fff"/>
-      <stop offset=".28" stop-color="#f6fcff"/>
-      <stop offset=".41" stop-color="#ddf5ff"/>
-      <stop offset=".57" stop-color="#b5e9ff"/>
-      <stop offset=".75" stop-color="#7ed9ff"/>
-      <stop offset=".96" stop-color="#39c4ff"/>
-      <stop offset="1" stop-color="#2ac0ff"/>
+      <stop offset=".28" stop-color="#f6f7ff"/>
+      <stop offset=".41" stop-color="#dde3ff"/>
+      <stop offset=".57" stop-color="#b5c2ff"/>
+      <stop offset=".75" stop-color="#7e95ff"/>
+      <stop offset=".96" stop-color="#395cff"/>
+      <stop offset="1" stop-color="#2a50ff"/>
     </radialGradient>
   </defs>
   <g id="Capa_1-2" data-name="Capa 1">
