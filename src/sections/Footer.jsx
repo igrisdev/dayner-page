@@ -47,7 +47,7 @@ export const Footer = () => {
             className='uppercase text-4xl font-black flex items-center justify-center gap-2'
           >
             <img
-              src='/logo.svg'
+              src='/logo_2.svg'
               alt='Logo Scent'
               className='w-10 h-10 md:w-12 md:h-12'
             />
