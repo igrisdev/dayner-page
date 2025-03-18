@@ -4,7 +4,7 @@ export const MainImage = () => {
   return (
     <section
       style={{
-        backgroundImage: 'url(/main_image.jpg)',
+        backgroundImage: 'url(/main_image.webp)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
