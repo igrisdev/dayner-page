@@ -41,14 +41,18 @@ export const Bento = () => {
           }}
           className='md:col-span-2 grid md:grid-cols-2 rounded-md aspect-square md:aspect-auto'
         >
-          <div className='hidden mg:block'></div>
+          <div className='hidden md:block'></div>
           <div className='flex flex-col items-center justify-center gap-6'>
             <div className='text-center flex flex-col gap-2'>
-              <h2 className='text-white text-xl font-semibold'>Lorem Ipsum</h2>
-              <p className='text-white/80  max-w-md px-4'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
-                officiis sapiente eos expedita nulla cumque! Nihil consequuntur
-                explicabo saepe pariatur hic minima.
+              <h2 className='text-white text-xl font-semibold uppercase'>
+                Perfección destilada
+              </h2>
+              <p className='text-white/80 text-left text-pretty max-w-md px-4'>
+                GLACIER ha sido creado para el hombre que busca destacar. Sus
+                notas frescas y duraderas mantienen su intensidad durante todo
+                el día, mientras que su elegante diseño refleja la pureza del
+                hielo ártico. Una fragancia que se convierte en tu firma
+                personal.
               </p>
             </div>
 

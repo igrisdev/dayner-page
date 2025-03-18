@@ -11,9 +11,11 @@ export const MainImage = () => {
       className='aspect-video overflow-hidden flex flex-col items-center justify-center gap-6'
     >
       <div className='text-center max-w-5xl flex flex-col gap-2'>
-        <span className='text-white/80 text-xl'>Lorem Ipsum</span>
-        <h2 className='lg:text-6xl md:text-4xl text-2xl text-white  font-semibold'>
-          Lorem ipsum dolor sit amet
+        <span className='text-white/80 text-xl font-medium'>
+          SCENT Presenta
+        </span>
+        <h2 className='lg:text-5xl md:text-4xl text-2xl text-white  font-semibold'>
+          GLACIER - El poder del hielo en tu piel
         </h2>
       </div>
 
