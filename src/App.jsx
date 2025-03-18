@@ -1,5 +1,3 @@
-import { Header } from './sections/Header'
-import { Hero } from './sections/Hero'
 import { Info } from './sections/Info'
 import { MainImage } from './sections/MainImage'
 import { Bento } from './sections/Bento'
