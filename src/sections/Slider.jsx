@@ -4,10 +4,12 @@ import 'swiper/css/pagination'
 import 'swiper/css/autoplay'
 
 import { Pagination, Autoplay } from 'swiper/modules'
+import { Header } from './Header'
 
 export const Slider = () => {
   return (
-    <section className='bg-blue-950 h-screen overflow-hidden'>
+    <section className='relative bg-blue-950 h-screen overflow-hidden'>
+      <Header />
       <Swiper
         pagination={{
           dynamicBullets: true,
