@@ -1,5 +1,6 @@
 import { Twitter } from 'lucide-react'
 import { Instagram } from 'lucide-react'
+import { Logo } from '../components/Logo'
 
 export const Footer = () => {
   return (
@@ -46,11 +47,7 @@ export const Footer = () => {
             href='/'
             className='uppercase text-4xl font-black flex items-center justify-center gap-2'
           >
-            <img
-              src='/logo_2.svg'
-              alt='Logo Scent'
-              className='w-10 h-10 md:w-12 md:h-12'
-            />
+            <Logo />
             scent
           </a>
         </div>
