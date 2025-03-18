@@ -3,12 +3,12 @@ import { Instagram } from 'lucide-react'
 
 export const Footer = () => {
   return (
-    <footer className='bg-blue-950 py-10 text-white'>
+    <footer className='bg-slate-950 py-10 text-white'>
       <section className='max-w-7xl mx-auto'>
         <div className='grid grid-cols-2 mb-10 gap-4'>
           <div>
             <h2 className='text-2xl font-semibold mb-2'>Sobre Nosotros</h2>
-            <p className='text-white/80'>
+            <p className='text-white/80 mt-2'>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo,
               sapiente? Quidem asperiores error temporibus saepe, ipsum
               quibusdam iste nemo quam eos vero qui et sequi ab vel deleniti
@@ -17,7 +17,12 @@ export const Footer = () => {
           </div>
 
           <div className='grid gap-3'>
-            <h2 className='text-2xl font-semibold'>Contactar</h2>
+            <div>
+              <h2 className='text-2xl font-semibold'>Suscribirte</h2>
+              <p className='text-white/80 mt-2'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
 
             <input
               type='email'
@@ -37,7 +42,7 @@ export const Footer = () => {
         </div>
 
         <div className='grid place-items-center'>
-          <a href='/' className='uppercase text-2xl font-black'>
+          <a href='/' className='uppercase text-4xl font-black'>
             scent
           </a>
         </div>
