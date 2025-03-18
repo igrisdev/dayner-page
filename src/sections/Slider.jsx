@@ -28,7 +28,11 @@ export const Slider = () => {
           />
         </SwiperSlide>
         <SwiperSlide className='object-cover'>
-          <img src='/slider_2_1.jpg' alt='Slider 2' />
+          <img
+            src='/slider_2_1.jpg'
+            className='w-full h-full object-cover object-center'
+            alt='Slider 2'
+          />
         </SwiperSlide>
       </Swiper>
     </section>
