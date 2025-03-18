@@ -27,22 +27,22 @@ export const Slider = () => {
         autoplay={{ delay: 2500, disableOnInteraction: false }}
         speed={800}
         loop={true}
-        modules={[Pagination]}
+        modules={[Pagination, Autoplay]}
         className='mySwiper h-full'
       >
         <SwiperSlide>
-          <SwiperSlide>
-            <img
-              src='/slider_2.webp'
-              className='w-full h-full object-cover object-center transition-opacity duration-500'
-              alt='Imagen del perfume GLACIER 2'
-              loading='eager'
-            />
-          </SwiperSlide>
           <img
             src='/slider_1.webp'
             className='w-full h-full object-cover object-center transition-opacity duration-500'
             alt='Imagen del perfume GLACIER'
+            loading='eager'
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src='/slider_2.webp'
+            className='w-full h-full object-cover object-center transition-opacity duration-500'
+            alt='Imagen del perfume GLACIER 2'
             loading='eager'
           />
         </SwiperSlide>
