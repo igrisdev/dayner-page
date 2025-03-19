@@ -19,7 +19,7 @@ export const MainImage = () => {
         </h2>
       </div>
 
-      <ButtonBuy />
+      {/* <ButtonBuy /> */}
     </section>
   )
 }
