@@ -2,7 +2,7 @@ import { ButtonBuy } from '../components/ButtonBuy'
 
 export const Bento = () => {
   return (
-    <section className='py-20 bg-blue-950'>
+    <section className='py-20 bg-slate-950'>
       <div className='max-w-7xl mx-auto min-h-screen grid grid-cols-1 md:grid-cols-2 gap-10 px-4'>
         <div
           style={{

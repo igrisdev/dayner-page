@@ -6,6 +6,7 @@ import 'swiper/css/autoplay'
 import { Pagination, Autoplay } from 'swiper/modules'
 import { Header } from './Header'
 import { useEffect } from 'react'
+import { ChevronsDown } from 'lucide-react'
 
 const preloadImages = imageUrls => {
   imageUrls.forEach(url => {
@@ -20,7 +21,7 @@ export const Slider = () => {
   }, [])
 
   return (
-    <section className='relative bg-blue-950 h-screen overflow-hidden'>
+    <section className='relative bg-slate-950 h-screen overflow-hidden'>
       <Header />
       <Swiper
         pagination={{ dynamicBullets: true }}
@@ -47,6 +48,10 @@ export const Slider = () => {
           />
         </SwiperSlide>
       </Swiper>
+
+      <div className='absolute bottom-16 left-1/2 -translate-x-1/2 z-10 flex  justify-center gap-2 text-white/30 animate-bounce'>
+        <ChevronsDown size={42} />
+      </div>
     </section>
   )
 }

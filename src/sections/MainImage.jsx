@@ -8,7 +8,7 @@ export const MainImage = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
-      className='aspect-video overflow-hidden flex flex-col items-center justify-center gap-6'
+      className='aspect-video overflow-hidden flex flex-col items-center justify-center gap-6 bg-slate-950'
     >
       <div className='text-center max-w-5xl flex flex-col gap-2'>
         <span className='text-white/80 text-xl font-medium'>
