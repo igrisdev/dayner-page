@@ -4,7 +4,7 @@ import { Logo } from '../components/Logo'
 
 export const Footer = () => {
   return (
-    <footer className='bg-blue-950 py-10 text-white px-4'>
+    <footer className='bg-black py-10 text-white px-4'>
       <section className='max-w-7xl mx-auto'>
         <div className='grid md:grid-cols-2 mb-10 gap-4'>
           <div>
